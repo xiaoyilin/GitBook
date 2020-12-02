@@ -1,6 +1,6 @@
 FROM alpine:3.12.1
 MAINTAINER yilinxiao
-RUN  apk add bash nodejs npm && \
+RUN  apk add nodejs npm && \
      npm install -g n && \
      n v10 && \
      npm install gitbook-cli -g && \
